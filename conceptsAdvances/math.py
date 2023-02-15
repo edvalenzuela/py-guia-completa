@@ -1,4 +1,5 @@
 import math
+from economypackage.mathseconomy import mymathsUtils
 
 resMin = min(5, 30, 40)
 resMax = max(5, 30, 40)
@@ -17,3 +18,7 @@ print(math.ceil(1.3))
 
 # redondea a 1
 print(math.floor(1.7))
+
+print(mymathsUtils.sumaSimple(1, 2))
+
+print(mymathsUtils.mulSimple(4, 4))
